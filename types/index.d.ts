@@ -1803,6 +1803,7 @@ declare namespace Knex {
     extension?: string;
     directory?: string;
     loadExtensions?: string[];
+    specific?: string;
   }
 
   class Seeder {
